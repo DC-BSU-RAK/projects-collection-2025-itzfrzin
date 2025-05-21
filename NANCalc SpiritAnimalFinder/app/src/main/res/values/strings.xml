@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Spirit Animal Finder</string>
+    <string-array name="food_options">
+        <item>Pizza</item>
+        <item>Sushi</item>
+        <item>Burgers</item>
+        <item>Fruit</item>
+    </string-array>
+
+    <string-array name="weather_options">
+        <item>Sunny</item>
+        <item>Rainy</item>
+        <item>Snowy</item>
+        <item>Windy</item>
+    </string-array>
+
+    <string-array name="time_options">
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>Evening</item>
+        <item>Night</item>
+    </string-array>
+
+</resources>

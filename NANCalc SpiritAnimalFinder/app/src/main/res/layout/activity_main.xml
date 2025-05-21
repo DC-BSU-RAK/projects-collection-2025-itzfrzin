@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="411dp"
+            android:layout_height="85dp"
+            android:background="#EFE39A"
+            android:fontFamily="@font/alata"
+            android:paddingBottom="24dp"
+            android:rotationX="-20"
+            android:text="What's Your Spirit Animal?"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <!-- Question 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/alata"
+            android:text="🍕 Which food do you like?"
+            android:textColor="#4D4A4A"
+            android:textSize="20sp" />
+
+        <!-- Question 2 -->
+
+        <Spinner
+            android:id="@+id/foodSpinner"
+            android:layout_width="338dp"
+            android:layout_height="62dp"
+            android:background="#F2E893" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/alata"
+            android:text="🌦️ Which weather do you prefer?"
+            android:textColor="#4D4A4A"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/weatherSpinner"
+            android:layout_width="335dp"
+            android:layout_height="68dp"
+            android:background="#F2E893" />
+
+        <!-- Question 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/alata"
+            android:text="🕒 What time of day do you like?"
+            android:textColor="#4D4A4A"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/timeSpinner"
+            android:layout_width="340dp"
+            android:layout_height="62dp"
+            android:background="#F2E893" />
+
+        <!-- Button to calculate -->
+
+        <!-- Result text -->
+
+        <!-- Info button -->
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="325dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/calculate_button_color"
+            android:fontFamily="@font/alata"
+            android:text="Find My Spirit Animal"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#020202"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/infoButton"
+            android:layout_width="101dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/info_button_color"
+            android:fontFamily="@font/alata"
+            android:text="Info"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="?android:windowBackground">
+
+    <EditText
+        android:id="@+id/editTextDestination"
+        android:layout_width="360dp"
+        android:layout_height="73dp"
+        android:hint="Enter destination"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Destination"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonShowList"
+        android:layout_width="366dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/material_dynamic_secondary40"
+        android:text="Show Bucket List"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/material_dynamic_secondary40"
+        android:text="Settings" />
+
+    <Button
+        android:id="@+id/buttonInfo"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/material_dynamic_primary80"
+        android:text="Info" />
+
+</LinearLayout>
